@@ -1,0 +1,20 @@
+One major part of function 'move' is to decrypt coordinates of rows and columns, in this game we want user to input rows as alphabets, and in function move we are decrypting row alphabets into numbers such as a-1, b-2, c-3 and so on, here we are testing that
+
+Input                 OUTPUT
+fromBox: a3           fromBox: (1,3) 
+toBox: g7             toBox: (7,7)
+  
+Input                 OUTPUT
+fromBox: k8           invalid input
+toBox: b4             
+
+Input                 OUTPUT
+fromBox: a3           fromBox: (1,3) 
+toBox: g7             toBox: (7,7)
+ 
+Input                 OUTPUT
+fromBox: h8           fromBox: (8,8) 
+toBox: c4             toBox: (3,4) 
+
+
+

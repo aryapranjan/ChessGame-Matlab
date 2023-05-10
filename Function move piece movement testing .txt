@@ -1,0 +1,24 @@
+In this test, we are inputting coordinates to check if our chess piece is moving to correct coordinates and is able to check if our values are going out of bound
+
+INPUT           OUTPUT
+
+fromRow: 1     moved the chess
+fromCol: 1     piece to row 4  
+               and column 9. 
+toRow: 4
+toCol: 9
+
+
+fromRow: -8     
+fromCol: 0      Invalid input  
+                 
+toRow: 2
+toCol: 4
+
+
+fromRow: 6.23     
+fromCol: 0.9988 
+                Error: indices must be positive
+toRow: 2.09     integers or logical values
+toCol: 4                
+

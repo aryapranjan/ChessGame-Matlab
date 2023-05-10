@@ -1,0 +1,11 @@
+In this we are testing that our function get_piece_colour is functions properly, get_piece_colour identifies the colour of the selected pawn. 
+
+INPUT            OUTPUT
+          
+"♝"              Black
+
+"♘"              white
+  
+"L"              Error, Not Defined Piece
+
+"♜"              Black

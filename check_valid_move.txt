@@ -1,0 +1,23 @@
+Check_valid_move is a function that checks if the selected chess piece is moving at the its correct position, for example- knight can only move in L shape and can jump across chess pieces, we are using rank_space and file_space logic in this that subtracts toRank and fromRank, fromFile and toFile to check if the particular piece is moving in the valid place, if the move is not valid, it displays illegal move
+
+
+INPUT           EXPECTED OUTPUT                    OUTPUT
+
+"♕"             the queen should not move         illegal move
+From: e1.       Because there are same pl-
+To: a5          ayers pieces in between
+
+"♘"             the knight should move as         knight moved succesfully
+From: b1.       As it can jump
+To: c3          
+
+"♘"             the knight should have moved      illegal move
+From: b1.       As it can jump, but the coor
+To: c2          -donates did not match rank_
+                space and file_space assigned
+                To the knight
+
+
+"♙"             the pawn moved successfully as it      pawn moved successfully
+From: c2.       Can move 2 steps ahead unobstructed 
+To: c4          
